@@ -11,23 +11,30 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{A968
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product.Command", "Product.Command", "{5AAE3306-AB7A-4E9A-AD50-D89237542529}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Command.Domain", "src\Services\Product\Product.Commad\Product.Command.Domain\Product.Command.Domain.csproj", "{416B3716-56C8-4E7E-B51A-18CC0971E49B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Command.Domain", "src\Services\Product\Product.Commad\Product.Command.Domain\Product.Command.Domain.csproj", "{416B3716-56C8-4E7E-B51A-18CC0971E49B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Command.Application", "src\Services\Product\Product.Commad\Product.Command.Application\Product.Command.Application.csproj", "{A05399FB-1906-4A5D-AEEF-AC1CFA9F9002}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Command.Application", "src\Services\Product\Product.Commad\Product.Command.Application\Product.Command.Application.csproj", "{A05399FB-1906-4A5D-AEEF-AC1CFA9F9002}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Command.Infrastructure", "src\Services\Product\Product.Commad\Product.Command.Infrastructure\Product.Command.Infrastructure.csproj", "{D6389580-3D7B-4ECD-A8AA-9FACACDD751D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Command.Infrastructure", "src\Services\Product\Product.Commad\Product.Command.Infrastructure\Product.Command.Infrastructure.csproj", "{D6389580-3D7B-4ECD-A8AA-9FACACDD751D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Command.API", "src\Services\Product\Product.Commad\Product.Command.API\Product.Command.API.csproj", "{79A9E635-4374-4371-B779-D114F72A70C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Command.API", "src\Services\Product\Product.Commad\Product.Command.API\Product.Command.API.csproj", "{79A9E635-4374-4371-B779-D114F72A70C9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product.Query", "Product.Query", "{74A58469-C1A9-4CE2-9278-F0F133FE01C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Query.Domain", "src\Services\Product\Product.Query\Product.Query.Domain\Product.Query.Domain.csproj", "{C9FB4A87-310D-4A9B-A203-63DA7AE4EBC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Query.Domain", "src\Services\Product\Product.Query\Product.Query.Domain\Product.Query.Domain.csproj", "{C9FB4A87-310D-4A9B-A203-63DA7AE4EBC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Query.Application", "src\Services\Product\Product.Query\Product.Query.Application\Product.Query.Application.csproj", "{3B77BE3C-06DF-4D4D-9938-705C4BA9F188}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Query.Application", "src\Services\Product\Product.Query\Product.Query.Application\Product.Query.Application.csproj", "{3B77BE3C-06DF-4D4D-9938-705C4BA9F188}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Query.Infrastucture", "src\Services\Product\Product.Query\Product.Query.Infrastucture\Product.Query.Infrastucture.csproj", "{1434E45E-6CC3-48BC-94CA-024551831C04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Query.Infrastucture", "src\Services\Product\Product.Query\Product.Query.Infrastucture\Product.Query.Infrastucture.csproj", "{1434E45E-6CC3-48BC-94CA-024551831C04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Query.API", "src\Services\Product\Product.Query\Product.Query.API\Product.Query.API.csproj", "{F3EBE865-EE95-419A-8C05-FED60B4EDCF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Query.API", "src\Services\Product\Product.Query\Product.Query.API\Product.Query.API.csproj", "{F3EBE865-EE95-419A-8C05-FED60B4EDCF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTOs", "DTOs", "{98D6E272-D0ED-42D9-95DE-122B7368D0E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{75CCD192-90F3-4502-ADA0-117C028B5E7C}"
+	ProjectSection(SolutionItems) = preProject
+		ProductDto.cs = ProductDto.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -84,6 +91,8 @@ Global
 		{3B77BE3C-06DF-4D4D-9938-705C4BA9F188} = {74A58469-C1A9-4CE2-9278-F0F133FE01C2}
 		{1434E45E-6CC3-48BC-94CA-024551831C04} = {74A58469-C1A9-4CE2-9278-F0F133FE01C2}
 		{F3EBE865-EE95-419A-8C05-FED60B4EDCF4} = {74A58469-C1A9-4CE2-9278-F0F133FE01C2}
+		{98D6E272-D0ED-42D9-95DE-122B7368D0E6} = {1F00C895-C1F3-40A3-95FF-FFA339A72EA5}
+		{75CCD192-90F3-4502-ADA0-117C028B5E7C} = {98D6E272-D0ED-42D9-95DE-122B7368D0E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {79A26BDF-F88B-4D1E-A1DA-F947BCF3F14B}
